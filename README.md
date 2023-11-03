@@ -10,7 +10,7 @@ Simple Linear Regression is a fundamental technique in machine learning. It mode
 
 Here, we're using library with generated data from sklearn. 
 
-\```python
+```python
 # Import 
 from datamin import SimpleLinearRegression
 from sklearn.datasets import make_regression
@@ -25,4 +25,4 @@ final = model.fit(X, y)
 prediction = model.main_function(X, final)
 print(model.score(y, prediction))
 
-\```
+```
