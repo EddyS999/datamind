@@ -21,7 +21,7 @@ class SimpleLinearRegression:
             gradient = 1/m * X.T.dot(fx - y)#transposé 
             O = O - learning_rate * gradient
             #fx = 1/(2*m) * np.sum((X.dot(O) - y)**2)
-            max -= 1
+            
         m_O = O
         return m_O
     
@@ -37,7 +37,6 @@ class SimpleLinearRegression:
             O = O - learning_rate * gradient
             cost_history[i] = 1/(2*m) * np.sum((X.dot(O) - y)**2) #self.cost(X,y,O)
             #fx = 1/(2*m) * np.sum((X.dot(O) - y)**2)
-            max -= 1
        
         return cost_history
     
