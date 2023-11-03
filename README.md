@@ -32,3 +32,5 @@ prediction = model.main_function(X, final)
 print(model.score(y, prediction))
 
 ```
+## results
+![Figure_2](https://github.com/EddyS999/datamind/assets/71152540/4c4c56a8-2373-4a33-9e01-01d661099c18)
