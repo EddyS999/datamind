@@ -12,7 +12,7 @@ Here, we're using library with generated data from sklearn.
 
 ```python
 # Import 
-from datamin import SimpleLinearRegression
+from datamind import SimpleLinearRegression
 from sklearn.datasets import make_regression
 import matplotlib .pyplot as plt 
 import numpy as np
