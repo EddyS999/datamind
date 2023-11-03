@@ -8,7 +8,7 @@ Simple Linear Regression is a fundamental technique in machine learning. It mode
 - Provides a scoring function to evaluate the model's performance.
 ## Usage
 
-Here, we're using library with generated data from sklearn. 
+Here, we're using datamind with a generated dataset from sklearn. 
 
 ```python
 # Import 
