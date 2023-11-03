@@ -6,3 +6,23 @@ Simple Linear Regression is a fundamental technique in machine learning. It mode
 - Fits a simple linear regression model to your data.
 - Generates cost history to track the optimization process.
 - Provides a scoring function to evaluate the model's performance.
+## Usage
+
+Here, we're using library with generated data from sklearn. 
+
+\```python
+# Import 
+from datamin import SimpleLinearRegression
+from sklearn.datasets import make_regression
+import matplotlib .pyplot as plt 
+import numpy as np
+
+# Linear regression with fit()
+model = SimpleLinearRegression()
+final = model.fit(X, y)
+
+# Scoring 
+prediction = model.main_function(X, final)
+print(model.score(y, prediction))
+
+\```
